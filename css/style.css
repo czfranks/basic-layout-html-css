@@ -1,0 +1,32 @@
+@import "common.css";
+@import "header.css";
+@import "secondary-nav.css";
+@import "main.css";
+@import "aside.css";
+@import "footer.css";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+div {
+    display: box;
+}
+.page{
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    min-height: 100vh;
+    max-width: 100vw;
+    background-image: url("https://image.freepik.com/vector-gratis/plantilla-fondo-estrellas-brillantes-cielo-oscuro_1308-40081.jpg");
+    
+}
+.page__inner{
+    margin: 0 auto;
+    width: 70%;
+    height: 100%;
+    background-color: #2a9d8f;
+}

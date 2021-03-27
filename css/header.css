@@ -1,0 +1,39 @@
+/* external geometry , position */
+.header__inner {
+    margin: 1rem 0;
+    text-align: right;
+    position: sticky;
+}
+.header__logo {
+    margin-left: 1rem;
+    float: left;
+}
+.header__main-nav {
+    display: inline-block;
+}
+.header__button {
+    display:inline-block;
+    margin-left: 1rem;
+}
+.header__search-form {
+    display: inline-block;
+    padding-right: 1rem;
+}
+
+/* behavior */
+.header {
+    border: 1px solid #264653;
+    background-color: #264653;
+}
+.logo {
+    background-color: white;
+}
+.main-nav__list {
+    list-style-type: none;
+    border-right: 2px solid white;
+}
+.main-nav__item {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+}
+

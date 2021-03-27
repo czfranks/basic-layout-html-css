@@ -1,0 +1,11 @@
+button {
+    background-color: #e9c46a;
+    text-align: center;
+}
+.link {
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    color: #e76f51;
+}

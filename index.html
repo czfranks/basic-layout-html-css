@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Layout 1</title>
+</head>
+<body class="page">
+    <div class="page__inner">
+        <!--    ****    cabecera de pagina    ****   -->
+        <header class="header">
+            <div class="header__inner">
+                <!-- logo -->
+                <div class="logo header__logo">
+                    <img src="#" alt="logo" class="logo__img"> LOGO
+                </div>
+                <!-- navigation principal -->
+                <nav class="main-nav header__main-nav">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item">
+                            <a class="link main-nav__link" href="#">Blog</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="link main-nav__link" href="#">Clases</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a class="link main-nav__link" href="#">Foro</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Sign in -->
+                <button class="button header__button" type="submit">Sign in</button>
+                <!-- Search -->
+                <form class="search-form header__search-form">
+                    <input class="search-form__input" type="text" placeholder="Buscar en Google">
+                    <button class="button search-form__button" type="button"> ▶ </button>
+                </form>
+            </div>
+        </header>
+
+        <!--    ****   navegacion secundaria  ****   -->
+        <nav class="secondary-nav">
+            <div class="secondary-nav__inner">
+                <ul class="secondary-nav__list">
+                    <li class="secondary-nav__item">
+                        <a href="#" class="link secondary-nav__link">Item 1</a>
+                    </li>
+                    <li class="secondary-nav__item">
+                        <a href="#" class="link secondary-nav__link">Item 2</a>
+                    </li>
+                    <li class="secondary-nav__item">
+                        <a href="#" class="link secondary-nav__link">Item 3</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--    ****   contenido principal de pagina  ****   -->
+        <main class="main">
+            <div class="main__inner">
+                <!-- article 1-->
+                <article class="article main__article">
+                    <aside class="article__aside">
+                        <figure class="article__figure">
+                            <img class="article__image" loading="lazy" src="#" alt="img">
+                            
+                        </figure>
+                    </aside>
+                    <header class="article__header">
+                        <div class="article__title">
+                            <p>Article 1 - Article's Title</p>
+                        </div>
+                        <div class="article__subtitle">
+                            <p>Article's Title 1</p>
+                        </div>
+                    </header>
+                    <div class="article__body">
+                        <div class="article__copy">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur nemo, blanditiis quaerat quo, dolores aperiam perferendis dolore magni enim reprehenderit maxime eum possimus velit maiores voluptas sit. Odit, totam qui?
+                            Saepe, rem. Est dolorem quaerat accusantium, nam ea iste, ducimus harum, nisi eius molestiae a! Expedita porro ipsa magni autem! Dicta, cumque consequatur delectus at vel aut quaerat quisquam in.
+                            Dolor explicabo quis dignissimos! Recusandae odio dolores voluptatum necessitatibus tempore quam ipsam, natus voluptate pariatur ratione iusto voluptatibus ipsa molestias atque dolorum architecto numquam minima distinctio commodi assumenda ullam non?
+                            Corrupti nesciunt ullam dolorum rem dignissimos, ratione ex ipsam tempora, expedita voluptatem suscipit, quisquam earum inventore accusamus necessitatibus magni explicabo delectus laborum reiciendis nemo blanditiis odit iste molestias laboriosam! Suscipit?
+                            Quaerat dolorum beatae animi, earum dolorem veritatis placeat eum sit quod, harum cumque quia assumenda doloremque minus tenetur corporis ad temporibus iusto deleniti eaque minima velit eveniet nulla. Ipsa, consectetur.</p>
+                            
+                        </div>
+                    </div>
+                    <footer class="article__footer">
+                        <div class="article__actions">
+                            <button type="button" class="button article__button"> Like </button>
+                            <button type="button" class="button article__button"> Dislike </button>
+                        </div>
+                    </footer>
+                </article>
+                <!-- Article 2 -->
+                <article class="article main__article">
+                    <header class="article__header">
+                        <div class="article__title">
+                            <p>Article 2 - Article's Title</p>
+                        </div>
+                        <div class="article__subtitle">
+                            <p>Article's subTitle 2</p>
+                        </div>
+                    </header>
+                </article>
+            </div>
+        </main>
+        <!--    ****   aside de pagina  ****   -->
+        <aside class="aside">
+            <div class="aside__inner">
+                <div class="social-likes aside__social">
+                    <a class="link social-likes__service social-likes__service_type_facebook" href="#facebook">face_logo</a>
+                    <a class="link social-likes__service social-likes__service_type_twitter" href="#twitter">twitter_logo</a>
+                </div>
+                <div class="article-amendments aside__amendments">
+                    Algun recordatorio o <cite>About us!</cite>
+                </div>
+            </div>
+        </aside>
+        <!--    ****   pie de pagina  ****   -->
+        <footer class="footer">
+            <div class="footer__inner">
+                <p class="footer__rights">2021 - Todos los derechos reservados</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./css/style.css">
+</body>
+</html>

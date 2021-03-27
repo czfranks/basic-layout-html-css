@@ -1,0 +1,47 @@
+/* external geometry, position */
+.main__inner {
+    margin: 1rem 2rem;
+}
+.main__article {
+    margin-bottom: 2rem;
+}
+.main__article:last-child {
+    margin-bottom: 0;
+}
+
+/* behavior */
+.main {
+    /* border: 2px solid black; */
+    background-color: white;
+    float: left;
+    width: 65%;
+}
+.article {
+    text-align: center;
+    background-color: #fcedc9;
+    border-radius: 0.7rem;
+    padding: 0.5rem;
+}
+
+.article__image {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 1rem;
+}
+.article__header {
+    font-size: 2.7rem;
+}
+.article__title {
+    font-size: 100%;
+    font-weight: bolder;
+}
+.article__subtitle {
+    font-size: 80%;
+    font-weight: bold;
+}
+.article__body {
+    text-align: justify;
+}
+.article__footer {
+    text-align: right;
+}
